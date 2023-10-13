@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { HeartIcon, ShoppingCartIcon, UserIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -27,9 +28,9 @@ export default function Home() {
           </div>
 
           <div className="extra-icons flex gap-x-2">
-            <div className="user"> user </div>
-            <div className="wishlist"> fav</div>
-            <div className="cart">cart</div>
+            <div className="user"> <UserIcon/> </div>
+            <div className="wishlist"><HeartIcon /> </div>
+            <div className="cart"><ShoppingCartIcon /></div>
           </div>
         </div>
       </div>
