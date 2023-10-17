@@ -37,7 +37,6 @@ const SlidingCarousel = () => {
       <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
       <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
       <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-
     </Carousel>
   );
 };

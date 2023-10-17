@@ -6,6 +6,7 @@ import {
   UserIcon,
 } from "lucide-react";
 import SlidingCarousel from "~/components/SlidingCarousel";
+import CodeCTA from "~/components/CodeCTA";
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
       </div>
 
       <SlidingCarousel />
+      <CodeCTA />
     </>
   );
 }
