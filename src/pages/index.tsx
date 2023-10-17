@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import SlidingCarousel from "~/components/SlidingCarousel";
 import CodeCTA from "~/components/CodeCTA";
+import PopularNow from "~/components/PopularNow";
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
 
       <SlidingCarousel />
       <CodeCTA />
+      <PopularNow />
     </>
   );
 }

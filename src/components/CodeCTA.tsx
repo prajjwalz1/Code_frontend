@@ -12,7 +12,7 @@ const CodeCTA = () => {
         </div>
       </div>
 
-      <div className="rounded-lg bg-white p-10 shadow-lg md:p-20">
+      <div className="rounded-lg bg-white p-10  md:p-20">
         <div className="md:flex md:flex-row-reverse md:items-center">
           <div className="img m-auto w-1/2 md:mb-0 md:mr-8 md:w-1/3">
             <img
@@ -33,7 +33,7 @@ const CodeCTA = () => {
                 <div className="img mx-auto w-16">
                   <LucideWaves />
                 </div>
-                <h3 className="mt-2 text-center text-sm font-semibold md:text-lg max-w-none">
+                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-lg">
                   Premium Sound
                 </h3>
               </div>
