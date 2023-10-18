@@ -54,8 +54,8 @@ const Footer = () => {
               Discover CODE today.
             </p>
             <div className="font-bold">FOLLOW US</div>
-            <div className="grid grid-cols-4 gap-x-5">
-              <a href="https://www.facebook.com/" className="mr-4 w-16">
+            <div className="grid grid-cols-4 gap-x-5 mt-4">
+              <a href="https://www.facebook.com/" className="mr-4 w-16 ">
                 <img
                   src="https://logolook.net/wp-content/uploads/2021/06/Facebook-Logo.png"
                   alt="logo"
