@@ -1,11 +1,10 @@
 import React from "react";
 
-
 const Footer = () => {
   return (
-    <footer className="footer w-full bg-gray-300 pt-8 pb-4 px-10">
+    <footer className="footer w-full bg-gray-300 px-10 pb-4 pt-8">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
           <a href="#" className="support">
             <div className="mt-4">
               <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
@@ -41,15 +40,15 @@ const Footer = () => {
               </ul>
             </div>
           </a>
-         
-          <div className=" -mt-12 justify-items-stretch flex-center ml-10">
+
+          <div className=" flex-center -mt-12 ml-10 justify-items-stretch">
             <img
               src="./logo-01.png"
               className="-mb-9  w-4/5"
               alt="Product Image"
             />
             <h3 className="text-xl font-bold ">Trendy Accessories</h3>
-            <p className="mb-1 flex text-justify text-sl">
+            <p className="text-sl mb-1 flex text-justify">
               CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
               and functionality in one. Elevate your tech experience with us.
               Discover CODE today.
