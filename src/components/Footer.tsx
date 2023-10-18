@@ -41,22 +41,10 @@ const Footer = () => {
               </ul>
             </div>
           </a>
-          <div>
-            <img />
-            <h3></h3>
-            <p></p>
-            <div>
-              <a>
-                <img
-                src="./codelogo-01.png"
-                alt="logo"
-                /> 
-              </a>
-            </div>
-          </div>
+         
           <div className=" -mt-12 justify-items-stretch flex-center">
             <img
-              src="./codelogo-01.png"
+              src="./logo-01.png"
               className="-mb-9  w-4/5"
               alt="Product Image"
             />
