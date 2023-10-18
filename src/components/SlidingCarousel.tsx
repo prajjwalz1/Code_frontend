@@ -25,18 +25,10 @@ const SlidingCarousel = () => {
       )}
       autoplay={true}
     >
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
-      <img src="https://zebronics.com/cdn/shop/collections/zeb-Wireless-earbuds-banner.jpg" />
+      <img src="./banner.png" />
+      <img src="./banner.png" />
+      <img src="./banner.png" />
+
     </Carousel>
   );
 };
