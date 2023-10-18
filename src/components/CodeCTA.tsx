@@ -1,4 +1,6 @@
 import { LucideWaves } from "lucide-react";
+import { BatteryFull } from "lucide-react";
+import { Mic } from "lucide-react";
 
 const CodeCTA = () => {
   return (
@@ -29,13 +31,21 @@ const CodeCTA = () => {
               like never before.
             </p>
             <div className="features flex items-center justify-center">
-              <div className="feature mr-6 text-center">
-                <div className="img mx-auto w-16">
+              <div className="feature mr-6 flex text-center">
+                <div className="img mx-auto w-16 ">
                   <LucideWaves />
+                  <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-lg">
+                    Premium Sound
+                  </h3>
                 </div>
-                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-lg">
-                  Premium Sound
-                </h3>
+
+                <div className="img mx-auto w-16">
+                  <BatteryFull />
+                  <h3>Long Battery Life</h3>
+                </div>
+                <div>
+                  <Mic/>
+                </div>
               </div>
             </div>
           </div>
