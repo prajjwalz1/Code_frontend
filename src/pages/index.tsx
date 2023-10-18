@@ -8,6 +8,7 @@ import {
 import SlidingCarousel from "~/components/SlidingCarousel";
 import CodeCTA from "~/components/CodeCTA";
 import PopularNow from "~/components/PopularNow";
+import Footer from "~/components/Footer";
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
