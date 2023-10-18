@@ -1,6 +1,6 @@
 const PopularNow = () => {
   return (
-    <div className="mt-4 flex-col items-center  bg-[#F2F2F2] px-8 py-2 ">
+    <div className="my-4 flex-col items-center  bg-[#F2F2F2] px-8 py-4 ">
       <div className=" m-4 text-center text-3xl font-extrabold lg:text-4xl">
         POPULAR
         <span className="rounded-lg bg-red-500 p-1 text-white">Now</span>
