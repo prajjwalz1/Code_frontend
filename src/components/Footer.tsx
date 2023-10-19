@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer w-full bg-gray-300 px-10 pb-4 pt-8">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
           <a href="#" className="support">
             <div className="mt-4">
               <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </a>
 
-          <div className=" flex-center -mt-12 ml-10 justify-items-stretch">
+          <div className="-mt-12 justify-items-stretch">
             <img
               src="./logo-01.png"
               className="-mb-12  w-4/5 "
