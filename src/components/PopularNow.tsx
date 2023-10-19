@@ -28,11 +28,11 @@ const PopularNow = () => {
           <div className="card-body justify-center px-2 py-2">
             <div className="badge text-xl font-medium text-red-600">New</div>
             <div className="title text-xl font-extrabold">
-              Code Speaker Pro
+              Code Music Pro
             </div>
             <div className="price text-xl font-extrabold">Rs. 8999</div>
             <div className="image w-52 pl-0 ">
-              <img src="./watch.png" alt="" />
+              <img src="./headset.png" alt="" />
             </div>
             <div className="colors flex justify-center gap-x-1">
               <div className="color rounded-full bg-slate-100 p-1.5"></div>
