@@ -6,16 +6,16 @@ const Category = () => {
       <div className="main bg-[#F2F2F2] px-4 py-4">
         <div className="flex flex-row flex-wrap  place-content-center gap-x-4 gap-y-2   ">
           <div className="flex flex-col gap-y-2">
-            <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
-              <div className="title text-xl font-semibold">Smart Watch</div>
+          <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
+              <div className="title text-xl font-semibold">EAR PHONE</div>
               <div className="image w-60">
-                <img src="./watch.png" alt="" />
+                <img src="./earphones.png" alt="" />
               </div>
             </div>
             <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
               <div className="title text-xl font-semibold">Smart Watch</div>
               <div className="image w-60">
-                <img src="./earphones.png" alt="" />
+                <img src="./watch.png" alt="" />
               </div>
             </div>
           </div>
