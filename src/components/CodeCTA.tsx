@@ -1,4 +1,6 @@
 import { LucideWaves } from "lucide-react";
+import { BatteryFull } from "lucide-react";
+import { Mic } from "lucide-react";
 
 const CodeCTA = () => {
   return (
@@ -21,21 +23,35 @@ const CodeCTA = () => {
               className="z-10 rounded-lg"
             />
           </div>
-          <div className="max-w-lg text-center md:w-2/3">
-            <p className="mb-8 text-xl text-gray-600 md:ml-8 md:mt-0">
-              Elevate Your Music Experience with{" "}
-              <span className="inline text-red-400">CODE MUSIC PRO.</span>{" "}
-              Discover the finest sound quality and immerse yourself in music
-              like never before.
+          <div className="max-w-3xl text-center md:w-2/3">
+            <p className="mb-8 text-3xl text-gray-900 md:ml-0 md:mt-0 font-normal">
+              Elevate your audio music experience with{" "}
+              <span className="inline font-bold text-red-600">
+                CODE MUSIC PRO
+              </span>{" "}
+              Bluetooth Headphones. Immerse yourself in <br/> pure sound, unbeatable
+              comfort, and <br/> cutting-edge technology.
             </p>
             <div className="features flex items-center justify-center">
-              <div className="feature mr-6 text-center">
-                <div className="img mx-auto w-16">
+              <div className="feature mr-6 flex text-center"> 
+                <div className="img mx-auto flex w-24 flex-col items-center justify-center ">
                   <LucideWaves />
+                  <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                    Premium Sound
+                  </h3>
                 </div>
-                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-lg">
-                  Premium Sound
-                </h3>
+                <div className="img mx-auto flex w-24 flex-col items-center justify-center">
+                  <BatteryFull />
+                  <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                    Long Battery Life
+                  </h3>
+                </div>
+                <div className="img mx-auto flex w-16 flex-col items-center justify-center">
+                  <Mic />
+                  <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                    Build-in Mic
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
