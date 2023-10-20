@@ -5,7 +5,7 @@ import { Mic } from "lucide-react";
 const CodeCTA = () => {
   return (
     <div className="cta  pt-2 ">
-      <div className=" mt-6 flex-col mr-5 text-center">
+      <div className=" mr-5 mt-6 flex-col text-center">
         <div className="heading  text-3xl font-bold lg:text-5xl ">
           CODE MUSIC PRO
         </div>
@@ -23,7 +23,7 @@ const CodeCTA = () => {
               className="z-10 rounded-lg"
             />
           </div>
-          <div className="max-w-3xl lg:ml-[1cm] text-center md:w-2/3">
+          <div className="max-w-3xl text-center md:w-2/3 lg:ml-[1cm]">
             <p className="mb-8 text-3xl font-normal text-gray-900 md:ml-0 md:mt-0">
               Elevate your audio music experience with{" "}
               <span className="inline font-bold text-red-600">

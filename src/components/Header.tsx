@@ -32,7 +32,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="extra-icons  lg:pr-[2cm] flex gap-x-10">
+      <div className="extra-icons  flex gap-x-10 lg:pr-[2cm]">
         <div className="user">
           <UserIcon />
         </div>
