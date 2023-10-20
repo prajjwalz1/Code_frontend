@@ -24,16 +24,16 @@ const CodeCTA = () => {
             />
           </div>
           <div className="max-w-3xl text-center md:w-2/3">
-            <p className="mb-8 text-3xl text-gray-900 md:ml-0 md:mt-0 font-normal">
+            <p className="mb-8 text-3xl font-normal text-gray-900 md:ml-0 md:mt-0">
               Elevate your audio music experience with{" "}
               <span className="inline font-bold text-red-600">
                 CODE MUSIC PRO
               </span>{" "}
-              Bluetooth Headphones. Immerse yourself in <br/> pure sound, unbeatable
-              comfort, and <br/> cutting-edge technology.
+              Bluetooth Headphones. Immerse yourself in <br /> pure sound,
+              unbeatable comfort, and <br /> cutting-edge technology.
             </p>
             <div className="features flex items-center justify-center">
-              <div className="feature mr-6 flex text-center"> 
+              <div className="feature mr-6 flex text-center">
                 <div className="img mx-auto flex w-24 flex-col items-center justify-center ">
                   <LucideWaves />
                   <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">

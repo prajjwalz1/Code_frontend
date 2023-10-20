@@ -12,7 +12,6 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Category from "~/components/Category";
 
-
 export default function Home() {
   return (
     <>
@@ -20,7 +19,6 @@ export default function Home() {
         <title>Code Shop</title>
         <meta name="description" content="code shop" />
         <link rel="icon" href="/favicon.ico" />
-      
       </Head>
       <Header />
       <SlidingCarousel />

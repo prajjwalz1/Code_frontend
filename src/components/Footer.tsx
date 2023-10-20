@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer w-full bg-gray-300 px-10 pb-4 pt-8">
       <div className="container mx-auto">
-        <div className="grid place-items-center justify-items-center-center grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+        <div className="justify-items-center-center grid grid-cols-1 place-items-center gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
           <a href="#" className="support">
             <div className="mt-4">
               <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
@@ -53,9 +53,12 @@ const Footer = () => {
               and functionality in one. Elevate your tech experience with us.
               Discover CODE today.
             </p>
-            <div className="font-bold -my-2">FOLLOW US</div>
-            <div className="grid grid-cols-4 gap-x-5 mt-4">
-              <a href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d" className="mr-4 w-16">
+            <div className="-my-2 font-bold">FOLLOW US</div>
+            <div className="mt-4 grid grid-cols-4 gap-x-5">
+              <a
+                href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
+                className="mr-4 w-16"
+              >
                 <img
                   src="https://logolook.net/wp-content/uploads/2021/06/Facebook-Logo.png"
                   alt="logo"

@@ -12,7 +12,7 @@ const Header = () => {
         <img src="./logo.png" className="h-20 w-20" />
       </div>
       <div className="aside-except-logo flex flex-grow place-content-evenly pt-2">
-        <div className="navlinks  hidden gap-x-6 font-bold sm:flex">
+        <div className="navlinks  hidden gap-x-10 font-bold sm:flex">
           {/* Hide on small screens */}
           <div className="navlink">Home</div>
           <div className="navlink">Category</div>
@@ -32,7 +32,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="extra-icons flex gap-x-6">
+      <div className="extra-icons flex gap-x-10">
         <div className="user">
           <UserIcon />
         </div>
