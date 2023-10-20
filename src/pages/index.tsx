@@ -11,6 +11,7 @@ import PopularNow from "~/components/PopularNow";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Category from "~/components/Category";
+import MoreCatrgory from "~/components/MoreCatrgory";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <CodeCTA />
       <PopularNow />
       <Category />
+      <MoreCatrgory />
       <Footer />
     </>
   );
