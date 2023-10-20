@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer w-full bg-gray-300 px-10 pb-4 pt-8">
+    <footer className="footer w-full bg-[#F2F2F2] px-10 pb-4 pt-8">
       <div className="container mx-auto">
-        <div className="justify-items-center-center grid grid-cols-1 place-items-center gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+        <div className="justify-items-center-center grid grid-cols-1  gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
           <a href="#" className="support">
             <div className="mt-4">
               <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
@@ -41,10 +41,10 @@ const Footer = () => {
             </div>
           </a>
 
-          <div className="-mt-12 justify-items-stretch">
+          <div className="content-center items-center">
             <img
-              src="./logo-01.png"
-              className="-mb-12  w-4/5 "
+              src="./footer-logo.png"
+              className="  w-4/5 "
               alt="Product Image"
             />
             <h3 className="text-xl font-bold">Trendy Accessories</h3>
