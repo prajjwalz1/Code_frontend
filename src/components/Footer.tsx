@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="content-center items-center">
             <img
               src="./footer-logo.png"
-              className="  w-4/5 "
+              className="  w-6/7 "
               alt="Product Image"
             />
             <h3 className="text-xl font-bold">Trendy Accessories</h3>
