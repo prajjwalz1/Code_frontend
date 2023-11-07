@@ -47,7 +47,7 @@ const Footer = () => {
               className="  w-6/7 "
               alt="Product Image"
             />
-            <h3 className="text-xl font-bold">Trendy Accessories</h3>
+            <h3 className="text-4xl  ">Trendy Accessories</h3>
             <p className="text-sl  mb-1 flex text-justify">
               CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
               and functionality in one. Elevate your tech experience with us.
