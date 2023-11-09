@@ -86,9 +86,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="w-full flex flex-col items-center justify-center sm:flex-row sm:items-center">
-  <img src="./headerlogo.png" className="h-20 w-20" />
-  <div className="text-center text-xl font-bold text-black">
+      <footer className="w-full flex flex-col items-center justify-center sm:flex-row">
+  <img src="./headerlogo.png" className="h-20 w-20 sm:flex" />
+  <div className="text-center font-bold text-black">
     Copyright © 2023 Code - All rights reserved.
   </div>
 </footer>
