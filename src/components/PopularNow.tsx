@@ -1,11 +1,13 @@
-const PopularNow = () => {
+import type { Products } from "~/pages";
+
+const PopularNow = ({ products }: { products: Products }) => {
   return (
-    <div className="my-4 flex-col items-center  bg-[#F2F2F2] px-8 py-4 ">
+    <div className="my-4 flex-col  items-center  bg-[#F2F2F2] px-8 py-4 ">
       <div className=" m-4 text-center text-3xl font-extrabold lg:text-4xl">
         POPULAR
         <span className="ml-3 rounded-lg bg-red-500 p-1 text-white">Now</span>
       </div>
-      <div className="mx-8 flex flex-wrap justify-evenly gap-y-2 sm:col-span-3">
+      <div className="mx-8 flex flex-wrap justify-evenly gap-y-2">
         <div className="card rounded-2xl bg-[#E6E8E9] shadow-2xl drop-shadow-2xl">
           <div className="card-body justify-center px-2 py-2">
             <div className="badge text-xl font-medium text-red-600">New</div>
