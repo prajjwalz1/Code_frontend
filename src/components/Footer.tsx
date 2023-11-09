@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer w-full bg-[#F2F2F2] px-10 pb-4 pt-8">
+    <footer className="footer w-full bg-[#F2F2F2] px-2 pb-4 pt-8">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 justify-items-center gap-4  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:justify-items-start xl:grid-cols-4 2xl:grid-cols-4">
           <a href="#" className="support">
@@ -47,7 +47,7 @@ const Footer = () => {
               className="  w-6/7 "
               alt="Product Image"
             />
-            <h3 className="text-xl font-bold">Trendy Accessories</h3>
+            <h3 className="text-5xl md:text-4xl">Trendy Accessories</h3>
             <p className="text-sl  mb-1 flex text-justify">
               CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
               and functionality in one. Elevate your tech experience with us.
@@ -86,6 +86,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <section className="flex w-full items-center justify-center sm:flex-row ">
+        <img src="./RedLogoMobile.png" className="h-15 w-12 sm:w-5" />
+        <p className="text-center font-bold text-black">
+          Copyright © 2023 Code - All rights reserved.
+        </p>
+      </section>
+    
     </footer>
   );
 };
