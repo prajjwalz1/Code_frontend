@@ -10,14 +10,14 @@ const Category = () => {
           <div className="flex flex-col gap-y-2">
             <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
               <div className="title text-xl font-semibold">EAR PHONE</div>
-              <div className="image w-48">
+              <div className="image w-60">
                 <img src="./earphones.png" alt="" />
               </div>
             </div>
             <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
               <div className="title text-xl font-semibold">Smart Watch</div>
-              <div className="image w-48 max-sm:w-48">
-                <img src="./watch.png" alt=""/>
+              <div className="image w-60">
+                <img src="./watch.png" alt="" />
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Category = () => {
             <div className="title text-center text-xl font-semibold">
               Power Bank
             </div>
-            <div className="image w-52">
+            <div className="image w-60">
               <img src="./powerbank.png" alt="" />
             </div>
           </div>
