@@ -23,6 +23,7 @@ const SlidingCarousel = () => {
           ))}
         </div>
       )}
+      wrapAround={true}
       autoplay={true}
     >
       <img src="./banner.png" />
