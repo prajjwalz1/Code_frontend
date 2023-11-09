@@ -3,7 +3,7 @@ import { BatteryFull, LucideWaves, Mic } from "lucide-react";
 const MoreCatrgory = () => {
   return (
     <div className="cta  flex flex-col items-center pt-2 ">
-      <div className="border-[2px]  border-black p-4 m-4 text-3xl outline-4 ">
+      <div className="m-4  border-[2px] border-black p-4 text-3xl outline-4 ">
         MORE CATEGORIES
       </div>
 
