@@ -149,7 +149,7 @@ const Footer = () => {
             <div className=" justify-center text-center font-bold">
               FOLLOW US
             </div>
-            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 px-[70px]">
+            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 md:px-[250px] px-[70px]">
               <a
                 href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
                 className="mr-4  w-10"
@@ -181,7 +181,7 @@ const Footer = () => {
           </div>
         </div>
         <section className="flex  w-full flex-row items-center  justify-center">
-          <img src="./RedLogoMobile.png" className=" w-5" />
+          <img src="./RedLogoMobile.png" className=" w-6" />
           <p className="text-center text-[12px] font-bold text-black sm:text-[15px] lg:text-base">
             Copyright © 2023 Code - All rights reserved.
           </p>
