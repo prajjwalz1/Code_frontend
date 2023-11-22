@@ -130,7 +130,7 @@ const Footer = () => {
             </a>
              */}
 
-          <div className="content-center items-center">
+          <div className="content-center items-center bg-slate-200 py-1">
             <div className="flex items-center justify-center">
               <img
                 src="./footer-logo.png"
@@ -149,10 +149,10 @@ const Footer = () => {
             <div className=" justify-center text-center font-bold">
               FOLLOW US
             </div>
-            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 px-[150px]">
+            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 px-[70px]">
               <a
                 href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
-                className="mr-4 w-10"
+                className="mr-4  w-10"
               >
                 <img
                   src="https://logolook.net/wp-content/uploads/2021/06/Facebook-Logo.png"
