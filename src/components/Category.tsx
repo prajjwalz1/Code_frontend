@@ -17,7 +17,7 @@ const Category = () => {
             <div className="card flex flex-row  items-center rounded-lg bg-[#E6E8E9] pl-8 pt-4">
               <div className="title text-xl font-semibold">Smart Watch</div>
               <div className="image w-48 max-sm:w-48">
-                <img src="./watch.png" alt=""/>
+                <img src="./watch.png" alt="" />
               </div>
             </div>
           </div>
