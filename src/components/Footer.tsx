@@ -90,14 +90,103 @@ const Footer = () => {
           </div>
         </div>
         <section className="flex  w-full flex-row items-center  justify-center">
-          <img src="./RedLogoMobile.png" className="h-5 w-5" />
+          <img src="./RedLogoMobile.png" className=" w-5" />
           <p className="text-center text-[10px] font-bold text-black sm:text-[15px] lg:text-base">
             Copyright © 2023 Code - All rights reserved.
           </p>
         </section>
       </footer>
 
-      <footer className=" block lg:hidden">hello duniya</footer>
+      <footer className=" block lg:hidden">
+        <div className="grid grid-cols-1 justify-items-center gap-4">
+          {/* <a href="#" className="">
+              <div className="mt-4">
+              <div className="mt-4">
+                <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
+                <ul>
+                  <li className="mb-2 text-xl">Contact Us</li>
+                  <li className="mb-2 text-xl">User Guide</li>
+                  <li className="mb-2 text-xl">Warranty</li>
+                  <li className="mb-2 text-xl">Digital Services Act</li>
+                </ul>
+              </div>
+                <h4 className="mb-2 text-2xl font-bold">ABOUT US</h4>
+                <ul>
+                  <li className="mb-2 text-xl">Leadership Team</li>
+                  <li className="mb-2 text-xl">Privacy Policy</li>
+                  <li className="mb-2 text-xl">Integrity & Compliance</li>
+                  <li className="mb-2 text-xl">Trust Center</li>
+                  <li className="mb-2 text-xl">Code Accessibility</li>
+                </ul>
+                <h4 className="mb-2 text-2xl font-bold">CODE PRODUCT</h4>
+                <ul>
+                  <li className="mb-2 text-xl">Code Creators</li>
+                  <li className="mb-2 text-xl">Code Studios</li>
+                  <li className="mb-2 text-xl">Code Imagery</li>
+                  <li className="mb-2 text-xl">Code Master Class</li>
+                  <li className="mb-2 text-xl">Code Renovation</li>
+                </ul>
+              </div>
+            </a>
+             */}
+
+          <div className="content-center items-center bg-slate-200 py-1">
+            <div className="flex items-center justify-center">
+              <img
+                src="./footer-logo.png"
+                className="  w-[250px] "
+                alt="Product Image"
+              />
+            </div>
+            <h3 className="mb-2 justify-center text-center text-3xl ">
+              Trendy Accessories
+            </h3>
+            <p className="mb-1 justify-center px-2 text-center">
+              CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
+              and functionality in one. Elevate your tech experience with us.
+              Discover CODE today.
+            </p>
+            <div className=" justify-center text-center font-bold">
+              FOLLOW US
+            </div>
+            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 md:px-[250px] px-[70px]">
+              <a
+                href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
+                className="mr-4  w-10"
+              >
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Facebook-Logo.png"
+                  alt="logo"
+                />
+              </a>
+              <a href="https://www.instagram.com/" className="mr-4 w-10">
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Instagr%D0%B0m-Logo.png"
+                  alt="logo"
+                />
+              </a>
+              <a href="https://www.tiktok.com/en/" className="mr-4 w-10">
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png"
+                  alt="logo"
+                />
+              </a>
+              <a href="https://www.youtube.com/" className="mr-4 w-10">
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Youtube.png"
+                  alt="logo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <section className="flex  w-full flex-row items-center  justify-center">
+          <img src="./RedLogoMobile.png" className=" w-6" />
+          <p className="text-center text-[12px] font-bold text-black sm:text-[15px] lg:text-base">
+            Copyright © 2023 Code - All rights reserved.
+          </p>
+        </section>
+      </footer>
     </>
   );
 };
