@@ -48,10 +48,10 @@ const Footer = () => {
                 className="  w-6/7 "
                 alt="Product Image"
               />
-              <h3 className="text-3xl md:text-4xl lg:text-4xl">
+              <h3 className="font-serif text-3xl md:text-4xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
                 Trendy Accessories
               </h3>
-              <p className="text-sl  mb-1 flex text-justify">
+              <p className="font-serif text-sl  mb-1 flex text-justify">
                 CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets,
                 style, and functionality in one. Elevate your tech experience
                 with us. Discover CODE today.
@@ -89,9 +89,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <section className="flex  w-full flex-row items-center  justify-center">
+        <section className=" flex  w-full flex-row items-center  justify-center">
           <img src="./RedLogoMobile.png" className=" w-5" />
-          <p className="text-center text-[10px] font-bold text-black sm:text-[15px] lg:text-base">
+          <p className=" text-center text-[10px] font-bold text-black sm:text-[15px] lg:text-base">
             Copyright © 2023 Code - All rights reserved.
           </p>
         </section>
@@ -138,10 +138,10 @@ const Footer = () => {
                 alt="Product Image"
               />
             </div>
-            <h3 className="mb-2 justify-center text-center text-3xl ">
+            <h3 className="font-serif mb-2 justify-center text-center text-3xl ">
               Trendy Accessories
             </h3>
-            <p className="mb-1 justify-center px-2 text-center">
+            <p className="font-serif mb-1 justify-center px-2 text-center">
               CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
               and functionality in one. Elevate your tech experience with us.
               Discover CODE today.
