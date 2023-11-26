@@ -17,7 +17,7 @@ const MoreCatrgory = () => {
             />
           </div>
           <div className="max-w-3xl text-center md:w-2/3 lg:ml-[1cm]">
-            <p className="mb-8 text-3xl font-normal text-gray-900 md:ml-0 md:mt-0">
+            <p className="mb-8 text-2xl font-normal text-gray-900 md:ml-0 md:mt-0">
               Elevate your audio music experience with{" "}
               <span className="inline font-bold text-red-600">
                 CODE MUSIC PRO
