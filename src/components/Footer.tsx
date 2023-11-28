@@ -51,7 +51,7 @@ const Footer = () => {
               <h3 className="font-serif text-3xl md:text-4xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
                 Trendy Accessories
               </h3>
-              <p className="font-serif text-sl  mb-1 flex text-justify">
+              <p className="text-sl mb-1  flex text-justify font-serif">
                 CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets,
                 style, and functionality in one. Elevate your tech experience
                 with us. Discover CODE today.
@@ -138,10 +138,10 @@ const Footer = () => {
                 alt="Product Image"
               />
             </div>
-            <h3 className="font-serif mb-2 justify-center text-center text-3xl ">
+            <h3 className="mb-2 justify-center text-center font-serif text-3xl ">
               Trendy Accessories
             </h3>
-            <p className="font-serif mb-1 justify-center px-2 text-center">
+            <p className="mb-1 justify-center px-2 text-center font-serif">
               CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
               and functionality in one. Elevate your tech experience with us.
               Discover CODE today.
@@ -149,7 +149,7 @@ const Footer = () => {
             <div className=" justify-center text-center font-bold">
               FOLLOW US
             </div>
-            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 md:px-[250px] px-[70px]">
+            <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 px-[70px] md:px-[250px]">
               <a
                 href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
                 className="mr-4  w-10"

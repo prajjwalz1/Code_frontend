@@ -16,6 +16,10 @@ const Header = () => {
           {/* Hide on small screens */}
           <div className="navlink">Home</div>
           <div className="navlink">Category</div>
+          <div className="navlink">
+            <a href="/contact-us">Contact Us</a>
+          </div>
+
           <div className="navlink">My Orders</div>
           <div className="navlink">More</div>
         </div>
