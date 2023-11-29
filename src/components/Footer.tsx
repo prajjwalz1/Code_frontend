@@ -6,20 +6,20 @@ const Footer = () => {
       <footer className="footer hidden w-full bg-[#F2F2F2] px-2 pb-4 pt-8 lg:block">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 justify-items-center gap-4  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:justify-items-start xl:grid-cols-4 2xl:grid-cols-4">
-            <a href="#" className="support">
+            <div className="support">
               <div className="mt-4">
                 <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
                 <ul>
-                  <li className="mb-2 text-xl">Contact Us</li>
+                  <li className="mb-2 text-xl"> <a href="/contact-us">Contact Us</a></li>
                   <li className="mb-2 text-xl">User Guide</li>
                   <li className="mb-2 text-xl">Warranty</li>
                   <li className="mb-2 text-xl">Digital Services Act</li>
                 </ul>
               </div>
-            </a>
-            <a href="#" className="about">
+            </div>
+            <div className="about">
               <div className="mt-4">
-                <h4 className="mb-2 text-2xl font-bold">ABOUT US</h4>
+                <h4 className="mb-2 text-2xl font-bold"><a href="/about-us">ABOUT US</a></h4>
                 <ul>
                   <li className="mb-2 text-xl">Leadership Team</li>
                   <li className="mb-2 text-xl">Privacy Policy</li>
@@ -28,7 +28,7 @@ const Footer = () => {
                   <li className="mb-2 text-xl">Code Accessibility</li>
                 </ul>
               </div>
-            </a>
+            </div>
             <a href="#" className="code product">
               <div className="mt-4">
                 <h4 className="mb-2 text-2xl font-bold">CODE PRODUCT</h4>
