@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <>
-      <div className="flex">this is contact us page</div>
+      <div className=" text-center text-2xl">How may we help you?</div>
     </>
   );
 };
