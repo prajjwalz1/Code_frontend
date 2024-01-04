@@ -17,20 +17,6 @@ const Category = () => {
               </div>
             </div>
           </div>
-            {/* <div className="card-body justify-center px-2 py-2">
-              <div className="flex flex-col items-center">
-                <div className="mb-2 flex-grow">
-                  <img
-                    className="py-2 image h-50 w-60 rounded object-cover"
-                    src="./earphones.png"
-                    alt="Earphones"
-                  />
-                </div>
-                <div className="rounded bg-black text-center text-xl text-white">
-                  EARPHONE
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className="card rounded-2xl bg-[#7dd3fc] shadow-2xl drop-shadow-2xl">
             <div className="card-body justify-center px-2 py-2">
