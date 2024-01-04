@@ -26,7 +26,7 @@ export default function Home() {
       <CodeCTA />
       <PopularNow />
       <Category />
-      <MoreCatrgory />
+      {/* <MoreCatrgory /> */}
       <Footer />
       <section className="flex  w-full flex-row items-center justify-center bg-white">
         <img src="./RedLogoMobile.png" className=" w-6" />
