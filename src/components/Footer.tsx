@@ -48,14 +48,14 @@ const Footer = () => {
                 className="  w-6/7 "
                 alt="Product Image"
               />
-              <h3 className="font-serif text-3xl md:text-4xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
+              {/* <h3 className="font-serif text-3xl md:text-4xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
                 Trendy Accessories
               </h3>
               <p className="text-sl mb-1  flex text-justify font-serif">
                 CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets,
                 style, and functionality in one. Elevate your tech experience
                 with us. Discover CODE today.
-              </p>
+              </p> */}
               <div className="-my-2 font-bold">FOLLOW US</div>
               <div className="mt-4 grid grid-cols-4 gap-x-5">
                 <a
@@ -99,36 +99,7 @@ const Footer = () => {
 
       <footer className=" block lg:hidden">
         <div className="grid grid-cols-1 justify-items-center gap-4">
-          {/* <a href="#" className="">
-              <div className="mt-4">
-              <div className="mt-4">
-                <h4 className="mb-2 text-2xl font-bold">SUPPORT</h4>
-                <ul>
-                  <li className="mb-2 text-xl">Contact Us</li>
-                  <li className="mb-2 text-xl">User Guide</li>
-                  <li className="mb-2 text-xl">Warranty</li>
-                  <li className="mb-2 text-xl">Digital Services Act</li>
-                </ul>
-              </div>
-                <h4 className="mb-2 text-2xl font-bold">ABOUT US</h4>
-                <ul>
-                  <li className="mb-2 text-xl">Leadership Team</li>
-                  <li className="mb-2 text-xl">Privacy Policy</li>
-                  <li className="mb-2 text-xl">Integrity & Compliance</li>
-                  <li className="mb-2 text-xl">Trust Center</li>
-                  <li className="mb-2 text-xl">Code Accessibility</li>
-                </ul>
-                <h4 className="mb-2 text-2xl font-bold">CODE PRODUCT</h4>
-                <ul>
-                  <li className="mb-2 text-xl">Code Creators</li>
-                  <li className="mb-2 text-xl">Code Studios</li>
-                  <li className="mb-2 text-xl">Code Imagery</li>
-                  <li className="mb-2 text-xl">Code Master Class</li>
-                  <li className="mb-2 text-xl">Code Renovation</li>
-                </ul>
-              </div>
-            </a>
-             */}
+          
 
           <div className="content-center items-center bg-slate-200 py-1">
             <div className="flex items-center justify-center">
@@ -165,15 +136,15 @@ const Footer = () => {
                   alt="logo"
                 />
               </a>
-              <a href="https://www.tiktok.com/en/" className="mr-4 w-10">
-                <img
-                  src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png"
-                  alt="logo"
-                />
-              </a>
               <a href="https://www.youtube.com/" className="mr-4 w-10">
                 <img
                   src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Youtube.png"
+                  alt="logo"
+                />
+              </a>
+              <a href="https://www.tiktok.com/en/" className="mr-4 w-10">
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png"
                   alt="logo"
                 />
               </a>
