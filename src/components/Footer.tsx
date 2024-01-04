@@ -48,15 +48,7 @@ const Footer = () => {
                 className="  w-6/7 "
                 alt="Product Image"
               />
-              {/* <h3 className="font-serif text-3xl md:text-4xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
-                Trendy Accessories
-              </h3>
-              <p className="text-sl mb-1  flex text-justify font-serif">
-                CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets,
-                style, and functionality in one. Elevate your tech experience
-                with us. Discover CODE today.
-              </p> */}
-              <div className="-my-2 font-bold">FOLLOW US</div>
+            
               <div className="mt-4 grid grid-cols-4 gap-x-5">
                 <a
                   href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
@@ -73,33 +65,34 @@ const Footer = () => {
                     alt="logo"
                   />
                 </a>
-                <a href="https://www.tiktok.com/en/" className="mr-4 w-16">
-                  <img
-                    src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png"
-                    alt="logo"
-                  />
-                </a>
                 <a href="https://www.youtube.com/" className="mr-4 w-16">
                   <img
                     src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Youtube.png"
                     alt="logo"
                   />
                 </a>
+                <a href="https://www.tiktok.com/en/" className="mr-4 w-16">
+                <img
+                  src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png"
+                  alt="logo"
+                />
+              </a>
               </div>
             </div>
           </div>
         </div>
-        <section className=" flex  w-full flex-row items-center  justify-center">
+        
+        {/* <section className=" flex  w-full flex-row items-center  bg-white justify-center">
           <img src="./RedLogoMobile.png" className=" w-5" />
           <p className=" text-center text-[10px] font-bold text-black sm:text-[15px] lg:text-base">
             Copyright © 2023 Code - All rights reserved.
           </p>
-        </section>
+        </section> */}
       </footer>
 
       <footer className=" block lg:hidden">
         <div className="grid grid-cols-1 justify-items-center gap-4">
-          
+         
 
           <div className="content-center items-center bg-slate-200 py-1">
             <div className="flex items-center justify-center">
@@ -109,17 +102,7 @@ const Footer = () => {
                 alt="Product Image"
               />
             </div>
-            <h3 className="mb-2 justify-center text-center font-serif text-3xl ">
-              Trendy Accessories
-            </h3>
-            <p className="mb-1 justify-center px-2 text-center font-serif">
-              CODE: Innovating Your Tech Lifestyle. Cutting-edge gadgets, style,
-              and functionality in one. Elevate your tech experience with us.
-              Discover CODE today.
-            </p>
-            <div className=" justify-center text-center font-bold">
-              FOLLOW US
-            </div>
+            
             <div className="mt-2 grid grid-cols-4 items-center justify-center gap-x-2 px-[70px] md:px-[250px]">
               <a
                 href="https://www.facebook.com/profile.php?id=100089926826291&mibextid=LQQJ4d"
@@ -151,12 +134,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <section className="flex  w-full flex-row items-center  justify-center">
+        {/* <section className="flex  w-full flex-row items-center bg-white justify-center">
           <img src="./RedLogoMobile.png" className=" w-6" />
           <p className="text-center text-[12px] font-bold text-black sm:text-[15px] lg:text-base">
             Copyright © 2023 Code - All rights reserved.
           </p>
-        </section>
+        </section> */}
       </footer>
     </>
   );

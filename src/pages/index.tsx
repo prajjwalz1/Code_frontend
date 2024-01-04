@@ -28,6 +28,12 @@ export default function Home() {
       <Category />
       <MoreCatrgory />
       <Footer />
+      <section className="flex  w-full flex-row items-center justify-center bg-white">
+        <img src="./RedLogoMobile.png" className=" w-6" />
+        <p className="text-center text-[12px] font-bold text-black sm:text-[15px] lg:text-base">
+          Copyright © 2023 Code - All rights reserved.
+        </p>
+      </section>
     </>
   );
 }
