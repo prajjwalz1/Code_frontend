@@ -12,6 +12,7 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Category from "~/components/Category";
 import MoreCatrgory from "~/components/MoreCatrgory";
+import Offerpg from "~/components/Offerpg";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <PopularNow />
       <Category />
       {/* <MoreCatrgory /> */}
+      <Offerpg /> 
       <Footer />
       <section className="flex  w-full flex-row items-center justify-center bg-white">
         <img src="./RedLogoMobile.png" className=" w-6" />

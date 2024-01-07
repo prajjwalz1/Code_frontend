@@ -14,7 +14,8 @@ const PopularNow = () => {
               </div>
               <div className="title text-2xl ">Code Fire 2</div>
               <div className="flex flex-wrap">
-                <div className="price text-xl font-bold">&#8377; 2,199</div>
+                <div className="price text-xl font-bold">&#8377; 2,199 <span className="text-green"></span></div>
+                
               </div>
             </div>
           </div>
