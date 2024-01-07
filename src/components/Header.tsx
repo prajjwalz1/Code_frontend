@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="flex place-content-start items-center bg-sky-700 px-4 text-white">
       <div className="logo max-h-full max-w-full ">
-        <img src="./headerlogo.png" className="h-20 w-20" />
+        <img src="./whitecode.webp" className="h-[1.5cm] w-18 px-4 py-1" />
       </div>
       <div className="aside-except-logo flex flex-grow place-content-evenly pt-2">
         <div className="navlinks  hidden gap-x-14 font-bold sm:flex">
