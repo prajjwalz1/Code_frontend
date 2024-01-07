@@ -4,22 +4,36 @@ import { Mic } from "lucide-react";
 
 const CodeCTA = () => {
   return (
-    <div className="cta  pt-2 ">
-      <div className=" mr-5 mt-6 flex-col text-left">
+    <div className="cta  pt-2  flex  flex-wrap ">
+      <div className=" mr-5 mt-6  flex-col text-left">
         <div className="heading mx-20 text-xl font-bold text-sky-700 lg:text-3xl ">
           CODE MUSIC PRO
         </div>
         <div className="desc mx-10 text-2xl font-light lg:text-3xl">
           Feel The Sensation Of Music
         </div>
+        <div className="logo max-h-full max-w-full ">
+          <img src="./headset.png" className="h-80 w-80 mx-20" />
+        </div>
       </div>
 
       <div className="rounded-lg bg-white p-10 md:p-20">
         {/* <div className="md:flex md:flex-row-reverse md:items-center">
           </div> */}
-        <div className="logo max-h-full max-w-full ">
-          <img src="./headset.png" className="h-80 w-80 mx-20" />
-        </div>
+       
+       <div className="card rounded-2xl px-6  bg-gray-400 shadow-2xl drop-shadow-2xl ml-auto">
+            <div className="card-body justify-center px-2 py-2">
+              <div className="image w-52 pl-0 ">
+                <img src="./headset.png" alt="" />
+              </div>
+              <div className="colors flex justify-center gap-x-1">
+              <div className="color rounded-full bg-black p-1.5"></div>
+              <div className="color rounded-full bg-sky-700 p-1.5"></div>     
+              <div className="color rounded-full bg-white p-1.5"></div>
+              </div>
+            </div>
+          </div>
+
         {/* <div className="max-w-3xl text-right md:w-2/3 lg:ml-[1cm]">
             <p className="mb-8 text-2xl font-normal text-gray-900 md:ml-0 md:mt-0">
               Elevate your audio music experience with{" "}
