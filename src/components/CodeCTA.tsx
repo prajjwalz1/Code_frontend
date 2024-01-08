@@ -24,7 +24,7 @@ const CodeCTA = () => {
        <div className="card rounded-2xl px-6  bg-gray-400 shadow-2xl drop-shadow-2xl ml-auto">
             <div className="card-body justify-center px-2 py-2">
               <div className="image w-52 pl-0 ">
-                <img src="./headset.png" alt="" />
+                <img src="./gheadphone.png" alt="" />
               </div>
               <div className="colors flex justify-center gap-x-1">
               <div className="color rounded-full bg-black p-1.5"></div>
