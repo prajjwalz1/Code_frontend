@@ -5,7 +5,7 @@ import { Mic } from "lucide-react";
 
 const CodeCTA = () => {
   return (
-    <div className="col-span-3 flex max-h-full max-w-full flex-row flex-wrap ">
+    <div className=" flex max-h-full max-w-full flex-row flex-wrap justify-between mx-5  ">
       <div className=" mr-5 mt-6   text-left">
         <div className="heading mx-20 text-xl font-bold text-sky-700 lg:text-3xl ">
           CODE MUSIC PRO
@@ -13,14 +13,13 @@ const CodeCTA = () => {
         <div className="desc mx-10 text-2xl font-light lg:text-3xl">
           Feel The Sensation Of Music
         </div>
-      </div>
-      <div>
-        {/* <div className="logo max-h-full max-w-full">
+        <div className="logo max-h-full max-w-full ml-52 pb-5">
           <img src="./headset.png" className="h-80 w-80  " />
-        </div> */}
+        </div>
       </div>
+  
       <div>
-        <div className="card rounded-2xl bg-slate-400 object-right-top">
+        <div className="card rounded-2xl w-[300px]  bg-slate-400 object-right-top">
           <div className="flex items-center justify-center">
             <img className="w-40" src="./gheadphone.png" alt="" />
           </div>
@@ -30,8 +29,7 @@ const CodeCTA = () => {
             <div className="rounded-full bg-white p-1"></div>
           </div>
         </div>
-
-        <div className="max-w-2xl  text-right md:w-2/3 lg:ml-[1cm]">
+        {/* <div className="max-w-2xl  text-right md:w-2/3 lg:ml-[1cm]">
           <p className="text-1xl mb-8 font-normal text-gray-900 md:ml-0 md:mt-0">
             Elevate your audio music experience with{" "}
             <span className="inline font-bold text-red-600">
@@ -79,7 +77,7 @@ const CodeCTA = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
