@@ -5,7 +5,7 @@ import { Mic } from "lucide-react";
 
 const CodeCTA = () => {
   return (
-    <div className=" flex max-h-full max-w-full flex-row flex-wrap justify-between mx-5  ">
+    <div className=" mx-5 flex max-h-full max-w-full flex-row flex-wrap justify-between  ">
       <div className=" mr-5 mt-6   text-left">
         <div className="heading mx-20 text-xl font-bold text-sky-700 lg:text-3xl ">
           CODE MUSIC PRO
@@ -13,21 +13,41 @@ const CodeCTA = () => {
         <div className="desc mx-10 text-2xl font-light lg:text-3xl">
           Feel The Sensation Of Music
         </div>
-        <div className="logo max-h-full max-w-full ml-52 pb-5">
+        <div className="logo ml-52 max-h-full max-w-full pb-5">
           <img src="./headset.png" className="h-80 w-80  " />
         </div>
       </div>
-  
+
       <div>
-        <div className="card rounded-2xl w-[300px]  bg-slate-400 object-right-top">
+        <div className="card w-[300px] rounded-2xl  bg-slate-400 object-right-top">
           <div className="flex items-center justify-center">
-            <img className="w-40" src="./gheadphone.png" alt="" />
+            <img className="h-40 w-40" src="./gheadphone.png" alt="" />
           </div>
           <div className="flex justify-center gap-x-2">
             <div className="rounded-full bg-black p-1"></div>
             <div className="rounded-full bg-sky-700 p-1"></div>
             <div className="rounded-full bg-white p-1"></div>
           </div>
+        </div>
+        <div>
+          <h2 className="">Elevate your audio music experience with</h2>
+          <h2>
+            {" "}
+            <span className="inline font-bold text-red-600">
+              CODE MUSIC PRO
+            </span>{" "}
+            Bluetooth Headphones.
+            <h2>
+              Immerse yourself in pure sound, unbeatable comfort,
+              <p>and cutting-edge technology.</p>
+            </h2>
+          </h2>
+          <div className="my-4 items-end justify-end ">
+                      <button className="flex rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
+                        <ShoppingCart />
+                        <h3>Shop Now</h3>
+                      </button>
+                    </div>
         </div>
         {/* <div className="max-w-2xl  text-right md:w-2/3 lg:ml-[1cm]">
           <p className="text-1xl mb-8 font-normal text-gray-900 md:ml-0 md:mt-0">
