@@ -29,26 +29,51 @@ const CodeCTA = () => {
             <div className="rounded-full bg-white p-1"></div>
           </div>
         </div>
-        <div>
-          <h2 className="">Elevate your audio music experience with</h2>
-          <h2>
-            {" "}
+        <div className="max-w-3xl text-center md:w-2/3 lg:ml-[1cm]">
+          {/* <p className="mb-8 text-xl font-normal text-gray-900 md:ml-0 md:mt-0">
+            Elevate your audio music experience with{" "}
             <span className="inline font-bold text-red-600">
               CODE MUSIC PRO
             </span>{" "}
-            Bluetooth Headphones.
-            <h2>
-              Immerse yourself in pure sound, unbeatable comfort,
-              <p>and cutting-edge technology.</p>
-            </h2>
-          </h2>
+            Bluetooth Headphones. Immerse yourself in <br /> pure sound,
+            unbeatable comfort, and <br /> cutting-edge technology.
+          </p> */}
+          <div className="features flex items-center justify-center">
+            <div className="feature mr-6  text-center">
+              <div className="img mx-auto flex w-24 items-center justify-center ">
+                <LucideWaves />
+                <h3 className="mt-2  text-sm font-semibold md:text-sm">
+                  Premium Sound 
+                </h3>
+              </div>
+              <div className="img mx-auto flex w-24  items-center justify-center">
+                <BatteryFull />
+                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                  Long Battery Life
+                </h3>
+              </div>
+              <div className="img mx-auto  w-16 flex items-center justify-center">
+                <Mic />
+                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                  Build-in Mic
+                </h3>
+              </div>
+            </div>
+          </div>
           <div className="my-4 items-end justify-end ">
-                      <button className="flex rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
-                        <ShoppingCart />
-                        <h3>Shop Now</h3>
-                      </button>
-                    </div>
+            <button className="flex rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
+              <ShoppingCart />
+              <h3>Shop Now</h3>
+            </button>
+          </div>
         </div>
+        {/* <div>
+          <h2 className="">Elevate your audio music experience with</h2>
+          <span className="inline font-bold text-red-600">
+            CODE MUSIC PRO
+          </span>{" "}
+          Bluetooth Headphones. Immerse yourself in pure sound, unbeatable comfort, and cutting-edge technology.
+        </div> */}
         {/* <div className="max-w-2xl  text-right md:w-2/3 lg:ml-[1cm]">
           <p className="text-1xl mb-8 font-normal text-gray-900 md:ml-0 md:mt-0">
             Elevate your audio music experience with{" "}
