@@ -19,50 +19,47 @@ const CodeCTA = () => {
       </div>
 
       <div>
-        <div className="card w-[250px] rounded-2xl  bg-slate-400 object-right-top">
+        <div className="card mx-80 mr-1 w-[250px] rounded-2xl bg-slate-400 object-right-top py-2">
           <div className="flex items-center justify-center">
             <img className="h-40 w-36 py-2" src="./gheadphone.png" alt="" />
           </div>
-          <div className="flex justify-center py-2 gap-x-2">
+          <div className="flex justify-center gap-x-2 py-2">
             <div className="rounded-full bg-black p-1"></div>
             <div className="rounded-full bg-sky-700 p-1"></div>
             <div className="rounded-full bg-white p-1"></div>
           </div>
         </div>
-        <div className="max-w-3xl text-right md:w-2/3 lg:ml-[1cm]">
-          <p className="mb-2 text-xl font-normal text-gray-900 md:ml-0 md:mt-0">
-            Elevate your audio music experience with{" "}
+        <div className="max-w-3xl  text-right md:w-2/3 lg:ml-[1cm] ">
+          <p className="mb-2 py-2  text-xl font-normal text-gray-900 md:ml-0 md:mt-0">
+            Elevate your audio music experience with <br />{" "}
             <span className="inline font-bold text-red-600">
               CODE MUSIC PRO
             </span>{" "}
-            Bluetooth Headphones. Immerse yourself in <br /> pure sound,
-            unbeatable comfort, and <br /> cutting-edge technology.
+            Bluetooth Headphones. <br /> Immerse yourself in pure sound,
+            <br />
+            unbeatable comfort, and cutting-edge technology.
           </p>
+
           <div className="features flex justify-items-end">
-            <div className="feature mr-6 text-right">
-              <div className=" flex py-2   ">
+            <div className="feature mx-auto  mr-1">
+              <div className=" flex gap-1 py-2 text-right text-lg font-bold   ">
                 <LucideWaves />
-                <h3 className="font-bold  text-lg"> Premium Sound </h3>
-    
+                <h3>Premium Sound</h3>
               </div>
-              <div className="flex font-bold py-2 text-lg gap-1 ">
+              <div className="flex gap-1 py-2 text-lg font-bold ">
                 <BatteryFull />
-                <h3>
-                  Long Battery Life
-                </h3>
+                <h3>Long Battery Life</h3>
               </div>
-              <div className="flex font-bold py-2 text-lg gap-1 ">
+              <div className="flex gap-1 py-2 text-lg font-bold ">
                 <Mic />
-                <h3>
-                  Build-in Mic
-                </h3>
+                <h3>Build-in Mic</h3>
               </div>
             </div>
           </div>
-          <div className="my-4 items-end justify-end ">
-            <button className="flex rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
+          <div className="flex gap-1 py-2 mx-24 text-right text-lg font-bold ">
+            <button className="flex mr-1  rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
               <ShoppingCart />
-              <h3>Shop Now</h3>
+              <h3 className="mr-1">Shop Now</h3>
             </button>
           </div>
         </div>
