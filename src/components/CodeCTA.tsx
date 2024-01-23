@@ -56,12 +56,12 @@ const CodeCTA = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-1 py-2 mx-24 text-right text-lg font-bold ">
-            <button className="flex mr-1  rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
-              <ShoppingCart />
-              <h3 className="mr-1">Shop Now</h3>
-            </button>
-          </div>
+        </div>
+        <div className="mx-24 flex gap-1 py-2 text-right text-lg font-bold ">
+          <button className="mr-1 flex  rounded-2xl bg-sky-700 px-5 py-2 text-xl text-white">
+            <ShoppingCart />
+            <h3 className="mr-1">Shop Now</h3>
+          </button>
         </div>
         {/* <div>
           <h2 className="">Elevate your audio music experience with</h2>
