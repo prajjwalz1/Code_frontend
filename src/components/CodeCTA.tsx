@@ -19,42 +19,41 @@ const CodeCTA = () => {
       </div>
 
       <div>
-        <div className="card w-[300px] rounded-2xl  bg-slate-400 object-right-top">
+        <div className="card w-[250px] rounded-2xl  bg-slate-400 object-right-top">
           <div className="flex items-center justify-center">
-            <img className="h-40 w-40" src="./gheadphone.png" alt="" />
+            <img className="h-40 w-36 py-2" src="./gheadphone.png" alt="" />
           </div>
-          <div className="flex justify-center gap-x-2">
+          <div className="flex justify-center py-2 gap-x-2">
             <div className="rounded-full bg-black p-1"></div>
             <div className="rounded-full bg-sky-700 p-1"></div>
             <div className="rounded-full bg-white p-1"></div>
           </div>
         </div>
-        <div className="max-w-3xl text-center md:w-2/3 lg:ml-[1cm]">
-          {/* <p className="mb-8 text-xl font-normal text-gray-900 md:ml-0 md:mt-0">
+        <div className="max-w-3xl text-right md:w-2/3 lg:ml-[1cm]">
+          <p className="mb-2 text-xl font-normal text-gray-900 md:ml-0 md:mt-0">
             Elevate your audio music experience with{" "}
             <span className="inline font-bold text-red-600">
               CODE MUSIC PRO
             </span>{" "}
             Bluetooth Headphones. Immerse yourself in <br /> pure sound,
             unbeatable comfort, and <br /> cutting-edge technology.
-          </p> */}
-          <div className="features flex items-center justify-center">
-            <div className="feature mr-6  text-center">
-              <div className="img mx-auto flex w-24 items-center justify-center ">
+          </p>
+          <div className="features flex justify-items-end">
+            <div className="feature mr-6 text-right">
+              <div className=" flex py-2   ">
                 <LucideWaves />
-                <h3 className="mt-2  text-sm font-semibold md:text-sm">
-                  Premium Sound 
-                </h3>
+                <h3 className="font-bold  text-lg"> Premium Sound </h3>
+    
               </div>
-              <div className="img mx-auto flex w-24  items-center justify-center">
+              <div className="flex font-bold py-2 text-lg gap-1 ">
                 <BatteryFull />
-                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                <h3>
                   Long Battery Life
                 </h3>
               </div>
-              <div className="img mx-auto  w-16 flex items-center justify-center">
+              <div className="flex font-bold py-2 text-lg gap-1 ">
                 <Mic />
-                <h3 className="mt-2 max-w-none text-center text-sm font-semibold md:text-sm">
+                <h3>
                   Build-in Mic
                 </h3>
               </div>
